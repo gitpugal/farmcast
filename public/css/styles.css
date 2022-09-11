@@ -116,3 +116,9 @@ h4{
 .nav-link:hover{
 transform: scale(1.1);
 }
+
+.titlequote{
+ position: absolute;
+ margin: 10px 40px;
+ padding-bottom: 50px;
+}
