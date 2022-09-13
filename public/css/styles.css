@@ -4,27 +4,29 @@ html,body{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: white;
-  margin: auto;
-z-index: 1;
 transition: all .6s ease-in-out;
+}
+
+
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  bottom: 0;
+    background-color: #1C6758;
 }
 
 /* html{
   position: relative;
 } */
 .forms{
-  margin: 40px auto;
+  margin: 10px auto;
   padding: 50px;
   box-shadow: 20px;
-  background-color: #7FB77E;
+  background-color: #3D8361;
   border-radius: 10%;
  min-height: 400px;
   width: 500px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-/* z-index: 10; */
-
-mix-blend-mode:hard-light;
+  box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
 
 }
 
@@ -96,7 +98,7 @@ h4{
 .leaf{
   position: absolute;
   left: 0;
-
+/* z-index: -1; */
 
 }
 
@@ -104,9 +106,8 @@ h4{
   opacity: 60%;
   -webkit-transform: scaleX(-1.5);
   transform: scaleX(-1);
-  width: 750px;
-  /* z-index: -1; */
-  mix-blend-mode:darken;
+  width: 450px;
+
 }
 
 .btn{
@@ -118,7 +119,35 @@ transform: scale(1.1);
 }
 
 .titlequote{
- position: absolute;
- margin: 10px 40px;
+ /* position: absolute;
+ left: 420px; */
+ margin-top: 30px;
+ text-align: center;
  padding-bottom: 50px;
+}
+
+.backToHome{
+  color: white;
+}
+
+.live_map{
+  margin-top: 100px;
+}
+
+.frame{
+  margin-top: 20px;
+  height: 450px;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
+}
+
+@media screen and (min-height: 580px)  {
+.leafImage{
+  width: 350px;
+}
+}
+
+.footer-icons{
+  margin: 0 8px;
 }

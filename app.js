@@ -5,7 +5,7 @@ const https = require("https");
 
 let chunks = [];
 
-
+var timeStamps=[];
 
 
 var app = express();
@@ -48,7 +48,7 @@ app.post("/subscribed", function(req, res) {
     })
   }
 
-})
+});
 
 app.post("/", function(req, res) {
 
@@ -58,7 +58,7 @@ app.post("/", function(req, res) {
   // console.log(timeWords);
   console.log(cityname);
   console.log(time);
-  if (cityname.length === 0) {
+  if (cityname.length === 0 || time.length === 0) {
     res.render("index");
 
   }
@@ -88,7 +88,7 @@ app.post("/", function(req, res) {
             console.log(url);
             let data = Buffer.concat(chunks);
             let schema = JSON.parse(data);
-
+            timeStampData = schema;
             var weatherDescription = schema["list"][time]["weather"][0]["description"];
             var weatherIcon = schema["list"][time]["weather"][0]["icon"];
             var temp = schema["list"][time]["main"]["temp"];

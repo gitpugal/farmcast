@@ -36,14 +36,16 @@
   <div class="leaf">
     <img class="leafImage" src="leaf.png" alt="">
   </div>
-  <div class="top">
-    <span><h1 >Weather at <%=dateText%> Will be</h1><a  href="/">Back to Home</a></span>
+  <div class="forms">
+      <a  class="backToHome" href="/">Back to Home</a></span>
+      <span><h1 >Weather on <%=dateText%> Will be<img src="<%=weatherIcon%>" alt="weather Icon"></h1>
+
+      <h1><%=weatherDecription%></h1>
+      <h3><%=weatherTempearure%></h3>
+
+
   </div>
-  <div class="showweatherCenter">
-    <img src="<%=weatherIcon%>" alt="weather Icon">
-    <h1><%=weatherDecription%></h1>
-    <h3><%=weatherTempearure%></h3>
-  </div>
+
 </body>
 
 </html>
