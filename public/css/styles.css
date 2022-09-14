@@ -5,13 +5,18 @@ html,body{
   font-family: 'Montserrat', sans-serif;
   color: white;
 transition: all .6s ease-in-out;
+position: relative;
+bottom: 0px;
 }
 
 
+
 .footer {
-  margin-top: 40px;
-  padding: 20px;
-  bottom: 0;
+  position: relative;
+
+  margin-top: 10px;
+  padding: 40px;
+  bottom:-300px;
     background-color: #1C6758;
 }
 
@@ -147,6 +152,33 @@ transform: scale(1.1);
   box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
 }
 
+
+.feature-box{
+  padding: 5%;
+  text-align: center;
+  transition: all .6s ease-in-out;
+}
+
+.feature-box:hover{
+  box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
+  transform: scale(1.1);
+}
+
+.icon{
+  color: #94d3ac;
+  margin-bottom: 1rem;
+}
+
+#features{
+  top: 100px;
+  padding: 7% 5%;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
 @media screen and (min-height: 580px)  {
 .leafImage{
   width: 350px;
@@ -155,4 +187,13 @@ transform: scale(1.1);
 
 .footer-icons{
   margin: 0 8px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.formLink{
+  text-decoration: none;
+  color: white;
 }
