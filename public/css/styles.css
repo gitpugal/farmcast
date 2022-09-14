@@ -97,9 +97,9 @@ transform:scale(1.2);
   padding-left: 20px;
 }
 
-.subscribe{
+/* .subscribe{
   margin-top: 40px;
-}
+} */
 h4{
   color: yellow;
   margin-top: 0px;
@@ -189,9 +189,7 @@ transform: scale(1.1);
   margin: 0 8px;
 }
 
-a{
-  text-decoration: none;
-}
+
 
 .formLink{
   text-decoration: none;
