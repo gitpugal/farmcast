@@ -7,6 +7,7 @@ html,body{
 transition: all .6s ease-in-out;
 position: relative;
 bottom: 0px;
+min-height: 500px;
 }
 
 
@@ -29,7 +30,19 @@ bottom: 0px;
   box-shadow: 20px;
   background-color: #3D8361;
   border-radius: 10%;
- min-height: 400px;
+ min-height: 500px;
+  width: 500px;
+  box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
+
+}
+
+.subscribe-forms{
+  margin: 100px auto;
+  padding: 50px;
+  box-shadow: 20px;
+  background-color: #3D8361;
+  border-radius: 10%;
+ min-height: 500px;
   width: 500px;
   box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
 
@@ -142,6 +155,9 @@ transform: scale(1.1);
 
 .live_map{
   margin-top: 100px;
+  background-color: #1C6758;
+  padding-top: 3%;
+  padding-bottom: 6%;
 }
 
 .frame{
@@ -150,6 +166,7 @@ transform: scale(1.1);
   width: 500px;
   border-radius: 50px;
   box-shadow: 5px 5px 10px #243D25, -5px -5px 10px #97DBAE;
+
 }
 
 
@@ -189,8 +206,40 @@ transform: scale(1.1);
   margin: 0 8px;
 }
 
+/* @media (max-width: 575px) {
+  .navbar {
+    .container-fluid {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+} */
 
+/* div.container-fluid{
+  flex-direction: row-reverse !important;
+} */
 
+@media (max-width: 575px) {
+  .navbar {
+    .container-fluid {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}
+
+h3{
+  line-height: 2.2;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1C6758;
+}
 .formLink{
   text-decoration: none;
   color: white;

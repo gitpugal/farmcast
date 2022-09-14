@@ -13,10 +13,10 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">FarmoCast</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarNav">
@@ -41,9 +41,18 @@
     </span>
   </div>
   <form class="forms mb-3" action="/subscribed" method="post">
-    <label for="">Your City : <%=cityname%></label>
-    <label for="">Your Mobile Number : <%=phoneNumber%></label>
-    <label for="">Your Alert Type : <%=alertType%></label>
+    <!-- <label for=""></label>
+    <label for=""></label>
+    <label for=""></label> -->
+    <h3>
+      Your City : <strong> <em><%=cityname%></em> </strong>
+    </h3>
+    <h3>
+      Your Mobile Number :<strong> <em><%=phoneNumber%></em> </strong>
+    </h3>
+    <h3>
+      Your Alert Type : <strong> <em><%=alertType%></em> </strong>
+    </h3>
   </form>
 </body>
 

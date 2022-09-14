@@ -23,7 +23,7 @@ app.get("/showWeather", function(req, res) {
 })
 
 app.get("/subscribe", function(req, res) {
-  res.render("subscribe")
+  res.render("subscribe");
 })
 
 app.get("/subscribed", function(req, res) {
