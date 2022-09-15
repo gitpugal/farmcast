@@ -8,10 +8,7 @@ transition: all .6s ease-in-out;
 position: relative;
 bottom: 0px;
 min-height: 500px;
-}
-
-body{
-  width: 100%
+width: 100%;
 }
 
 
@@ -203,11 +200,15 @@ transform: scale(1.1);
 .leafImage{
   width: 350px;
 }
-.forms{
+/* .forms{
   width: 700px;
 }
 .frame{
   width: 700px;
+} */
+
+html{
+  width: 600px;
 }
 }
 .footer-icons{
