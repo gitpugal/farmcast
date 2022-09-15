@@ -10,6 +10,9 @@ bottom: 0px;
 min-height: 500px;
 }
 
+body{
+  width: 100%
+}
 
 
 .footer {
@@ -200,8 +203,13 @@ transform: scale(1.1);
 .leafImage{
   width: 350px;
 }
+.forms{
+  width: 700px;
 }
-
+.frame{
+  width: 700px;
+}
+}
 .footer-icons{
   margin: 0 8px;
 }
@@ -218,7 +226,7 @@ transform: scale(1.1);
 /* div.container-fluid{
   flex-direction: row-reverse !important;
 } */
-
+/*
 @media (max-width: 575px) {
   .navbar {
     .container-fluid {
@@ -226,7 +234,8 @@ transform: scale(1.1);
       margin-right: 0;
     }
   }
-}
+} */
+
 
 h3{
   line-height: 2.2;
