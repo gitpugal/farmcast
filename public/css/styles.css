@@ -198,10 +198,10 @@ transform: scale(1.1);
 
 @media screen and (min-height: 580px)  {
 .leafImage{
-  /* position: relative;
+  position: relative;
   right: 135px;
-  width: 40%; */
-  display: none;
+  width: 40%;
+  /* display: none; */
 }
 .forms{
   width: 95%;
@@ -211,7 +211,7 @@ transform: scale(1.1);
 }
 
 .navbar-brand{
-  /* position: static; */
+  position: static;
 }
 
 }
