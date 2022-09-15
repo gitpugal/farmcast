@@ -203,7 +203,7 @@ transform: scale(1.1);
   width: 40%;
   /* display: none; */
 }
-.forms{
+.forms,.subscribe-forms{
   width: 95%;
 }
 .frame{
