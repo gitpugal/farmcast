@@ -200,16 +200,14 @@ transform: scale(1.1);
 .leafImage{
   width: 350px;
 }
-/* .forms{
-  width: 700px;
+.forms{
+  width: 95%;
 }
 .frame{
-  width: 700px;
-} */
-
-html{
-  width: 600px;
+  width: 95%;
 }
+
+
 }
 .footer-icons{
   margin: 0 8px;
