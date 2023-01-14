@@ -1,39 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const https = require("https");
-// const swal = require("sweetalert");
-
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyAHbMlylQkexexDURlVTXOljWsqB95-Z0A",
-  authDomain: "farmocast-a15d0.firebaseapp.com",
-  projectId: "farmocast-a15d0",
-  storageBucket: "farmocast-a15d0.appspot.com",
-  messagingSenderId: "320482151668",
-  appId: "1:320482151668:web:ef253056614023aa5862a1",
-  measurementId: "G-WE8RW63N2V"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-///////
-
+// const swal = require("sweetalert");\
 
 let chunks = [];
 
 var timeStamps=[];
 
 
-// var app = express();
+var app = express();
 app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({
