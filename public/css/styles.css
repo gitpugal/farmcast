@@ -117,13 +117,12 @@ h4{
   color: yellow;
   margin-top: 0px;
 }
-
-.leaf{
-  position: absolute;
-  left: 0;
-/* z-index: -1; */
-
+body .leaf{
+    position: absolute;
+    left: 0;
+  /* z-index: -1; */
 }
+
 
 .leafImage{
   opacity: 60%;
@@ -196,12 +195,11 @@ transform: scale(1.1);
 
 
 
-@media screen and (min-height: 580px)  {
+@media screen and (max-width: 400px)  {
 .leafImage{
   position: relative;
   right: 135px;
   width: 40%;
-  /* display: none; */
 }
 .forms,.subscribe-forms{
   width: 95%;
